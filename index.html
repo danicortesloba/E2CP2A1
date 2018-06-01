@@ -36,6 +36,10 @@
       z-index: 3;
 
     }
+
+    a  {
+      color: white;
+    }
     .topmenulist
     {
       list-style-type: none;
@@ -135,6 +139,7 @@ p {
   position: absolute;
   margin-top: 1020px;
   margin-left: 90px;
+  margin-bottom: 30px;
   padding-top: 70px;
   background-color: #efefef;
   border-color: #efefef;
@@ -172,6 +177,96 @@ p {
 
 
 }
+
+
+.prefooter
+
+{
+  width:90%;
+  height: 150px;
+  position: absolute;
+  margin-top: 1400px;
+  margin-left: 90px;
+  margin-bottom: 30px;
+  padding-top: 70px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.contacto2 {
+width:200px;
+height: 250px;
+position: absolute;
+bottom: 10px;
+margin-left: 400px;
+float:left;
+
+}
+
+.p2 {
+
+  font-family: sans-serif;
+  text-align: left;
+  font-style: normal;
+  font-size: 12px;
+}
+.subscribe {
+  width:400px;
+height: 250px;
+position: absolute;
+bottom: 10px;
+margin-left: 600px;
+float:left;
+
+}
+.form {
+
+  font-family: sans-serif;
+  text-align: left;
+  font-style: normal;
+  font-size: 12px;
+  float: left;
+}
+
+.enviar {
+  height: 15px;
+  width: 70px;
+  position: absolute;
+  margin-left: 180px;
+  float: left;
+  border-radius: 3px;
+  z-index: 20;
+  padding-bottom: 9px;
+  border-style: solid;
+  border-color: grey;
+  border-width:thin;
+}
+.p3 {
+
+  font-family: sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-size: 12px;
+}
+.footer {
+  clear: both;
+  width:90%;
+  height: 45px;
+  position: absolute;
+  margin-top: 1600px;
+  margin-left: 90px;
+  background-color: black;
+  color: white;
+  padding-left: 200px;
+}
+
+.p4 {
+
+  font-family: sans-serif;
+  text-align: left;
+  font-style: normal;
+  font-size: 12px;
+}
+
     </style>
 
   </head>
@@ -184,9 +279,9 @@ p {
     </div>
     <nav class="topmenu">
       <ul class="topmenulist">
-        <li class="topmenuitem"> Equipo</li>
-        <li class="topmenuitem">Blog</li>
-        <li class="topmenuitem">Contacto</li>
+        <li class="topmenuitem"> <a href="http://www.yahoo.com">Equipo</a></li>
+        <li class="topmenuitem"><a href="http://www.yahoo.com">Blog</a></li>
+        <li class="topmenuitem"><a href="http://www.yahoo.com">Contacto</a></li>
       </ul>
     </nav>
     <div class="textobanner1">
@@ -212,14 +307,40 @@ p {
     <div class="solicitud">
 <h5>SOLICITA INFORMACIÓN E INSCRÍBETE</h5>
 <p class="solicitudp"> Lorem ipsum dolor sit ampet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<br>
+<br>
+<br>
 <p class="insribetep"> ¡Vive la experiencia Desafío Latam!</p>
 </div>
 <div class="botoninscripcion">
 <p class=textboton>¡Inscríbete!</p>
-<div class="solicitud">
-
 </div>
 
+<div class="prefooter">
+  <div class="contacto2">
+    <p class="p2">Contacto</p>
+    <br>
+    <p class="p2"><b>Desafío Latam</b></p>
+    <p class="p2">Ezequías Alliende 2361</p>
+    <p class="p2">P: +56 9 5117 7975</p>
+    <br>
+    <p class="p2">inscripciones@desafiolatam.com</p>
+  </div>
+  <div class="subscribe">
+    <p class="p2">Subscríbete</p>
+    <br>
+    <p class="p2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <form class="form">
+<input type="text" name="email" placeholder="Ingresa tu email...">
+</form>
+<div class="enviar">
+  <p class="p3"> Enviar </p>
+</div>
+  </div>
+</div>
+
+<div class="footer">
+<p class="p4"> DESAFIO LATAM 2016 - CURSO FULLSTACK G5</p>
 </div>
   </body>
 </html>
